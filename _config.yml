@@ -263,7 +263,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: projects
+      type: talks
     values:
       layout: talk
       author_profile: true
