@@ -1,13 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Cześć, Jestem Michał"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+![Zdjęcie 1](/images/Zdj_cv-1.png){: .align-right width="300px"}
+Jestem inżynierem planowania przestrzennego oraz studentem architektury, a także aktywnym twórcą kanału [GISboost](https://www.youtube.com/@GISBoost) na platformie YouTube. Moje umiejętności w analizie danych geoprzestrzennych obejmują obszary takie jak chmury punktów, modelowanie 3D oraz inżynieria ruchu drogowego. Posiadam zdolność szybkiego uczenia się oraz umiejętność znajdowania innowacyjnych rozwiązań problemów. Moja praca nad kanałem GISboost to doskonały przykład mojej zdolności do przyswajania nowych informacji i wykorzystywania ich w praktyce. Jestem gotów podejmować wyzwania związane z projektowaniem, analizą danych oraz inżynierią ruchu, nieustannie poszukując nowych, efektywnych rozwiązań.
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Posiadam umiejętności w zakresie projektowania przestrzeni, w tym zdolność posługiwania się różnymi narzędziami, takimi jak AutoCAD. Potrafię wykonywać modele 3D i wizualizacje w programach Blender oraz SketchUp. Obsługuje programy QGIS, ArcGIS, AutoCAD 3D Map i pozwala mi to na tworzenie precyzyjnych rysunków, map i wizualizacji w trzech wymiarach. Obsługa programów Inkscape i GIMP pozwala mi na edycję i retuszowanie obrazów.
+
+Od 2018 roku zajmuję się sędziowaniem koszykówki, co rozwija moje umiejętności w zakresie pracy w zespole, zarządzania czasem oraz podejmowania decyzji pod presją czasu. W listopadzie 2021 roku dołączyłem do zespołu "Bliżej sportu" jako asystent realizatora transmisji na żywo. Praca ta pozwala mi na rozwijanie umiejętności w zakresie organizacji oraz koordynacji działań w dynamicznym środowisku.
+W lipcu 2023 roku odbyłem praktyki w firmie PERI gdzie zajmowałem się projektowaniem deskowań. Pozwoliło mi to rozwijać moje kompetencje inżynierskie.
+Jestem zawsze otwarty na nowe wyzwania i chętnie uczę się nowych rzeczy.
 
 A data-driven personal website
 ======
