@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Projekty"
-    url: /projects/
+    url: /talks/
 
   - title: "Publikacje"
     url: /publications/
