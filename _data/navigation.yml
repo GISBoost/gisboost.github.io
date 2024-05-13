@@ -1,23 +1,23 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Projekty"
+    url: /projects/
+    
+  - title: "Publikacje"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  
+  - #title: "Teaching"
+    #url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - #title: "Blog Posts"
+    #url: /year-archive/
     
   - title: "CV"
     #url: /cv/
     url: /files/CV_Kaczorowski.pdf
     
-  - title: "Guide"
-    url: /markdown/
+  - #title: "Guide"
+    #url: /markdown/

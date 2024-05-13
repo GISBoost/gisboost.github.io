@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![Zdjęcie 1](/images/Zdj_cv-1.png){: .align-right width="300px"}
+![Zdjęcie 1](/images/Zdj_cv-1.png){: .align-right width="100px"}
 Jestem inżynierem planowania przestrzennego oraz studentem architektury, a także aktywnym twórcą kanału [GISboost](https://www.youtube.com/@GISBoost) na platformie YouTube. Moje umiejętności w analizie danych geoprzestrzennych obejmują obszary takie jak chmury punktów, modelowanie 3D oraz inżynieria ruchu drogowego. Posiadam zdolność szybkiego uczenia się oraz umiejętność znajdowania innowacyjnych rozwiązań problemów. Moja praca nad kanałem GISboost to doskonały przykład mojej zdolności do przyswajania nowych informacji i wykorzystywania ich w praktyce. Jestem gotów podejmować wyzwania związane z projektowaniem, analizą danych oraz inżynierią ruchu, nieustannie poszukując nowych, efektywnych rozwiązań.
 
 Posiadam umiejętności w zakresie projektowania przestrzeni, w tym zdolność posługiwania się różnymi narzędziami, takimi jak AutoCAD. Potrafię wykonywać modele 3D i wizualizacje w programach Blender oraz SketchUp. Obsługuje programy QGIS, ArcGIS, AutoCAD 3D Map i pozwala mi to na tworzenie precyzyjnych rysunków, map i wizualizacji w trzech wymiarach. Obsługa programów Inkscape i GIMP pozwala mi na edycję i retuszowanie obrazów.
