@@ -1,6 +1,6 @@
 # Konkurs dyplom inżynierski 2024
 
-## Izochorny
+## Izochrony
 
 Animacja przedstawia izochrony dojazdu środkami transportu publicznego z obszaru opracowania w ciągu 30 minut
 
