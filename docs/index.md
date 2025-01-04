@@ -1,3 +1,7 @@
+<head>
+<meta name="google-site-verification" content="ih1W248cEBofov9EY3iEEdE6AS_Sftsy7er6eC52uxY" />
+</head>
+
 # Witaj na stronie GISBoost
 
 Witaj na stronie projektu GISBoost. Moją misją jest zwiększanie świadomości o otaczającym nas środowisku oraz danych przestrzennych dostępnych publicznie oraz nieodpłatnie.
