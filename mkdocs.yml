@@ -56,8 +56,6 @@ plugins:
   - tags:
       tags_file: tags.md
   - search
-      
-
 
 extra:
   social:
@@ -70,7 +68,16 @@ nav:
   - Strona główna: index.md
   - O mnie: O-mnie.md
   - Umiejętności: skills.md
-  - Projekty: projects.md
+  - Projekty:
+    #- Projekty: projects.md
+    - PMWC: projects/PMWC.md
+    - Model 3D: projects/Model3d.md
+    - Przystanki: projects/przystanki.md
+    - rowery: projects/rowery.md
+    - wskaźnik IZD: projects/wsk_izd.md
+    - Domek BIM: projects/dom_bim.md
+    - leedhome: projects/leedhome.md
+    - shader: projects/shader.md
   - Poradniki:
     - OTP: OpenTripPlanner.md
     - bufory: bufory.md
