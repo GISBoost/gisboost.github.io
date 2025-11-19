@@ -212,7 +212,8 @@ Mapa czasów dojazdów i ilości potrzebnych przesiadek prezentuje się w nastę
 
 OTP posiada moduł pozwalający policzyć czas dojazdu do wielu różnych punktów. Do obliczenia tego uzyjemy polecenia surface. Mogłoby się wydawać, że będzie to powtórzenie poprzedniej analiy, jednak poprzez użycie surface znacznie skraca nam się czas analiy, ponieważ narzędzie OTP jest w stanie wygenerować surface model mniej więcej w takim samym czasie co pojedyncze zapytanie o trasę. Osiągane jest to przez zapisanie czasu dojazdu do każdego miejsca z punktu startowego w komórkach rastra.
 
-W celu przeprowadzenia
+W celu przeprowadzenia...
+asdasdasd
 
 
 ## Narzędzia symulacyjne VISSIM + TomTom MOVE
