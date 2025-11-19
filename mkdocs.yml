@@ -63,6 +63,10 @@ extra:
       link: https://www.youtube.com/@GISBoost/
     - icon: simple/linkedin
       link: https://www.linkedin.com/in/michal-kaczorowsky/
+    - icon: simple/instagram
+      link: https://www.instagram.com/gisboost/
+    - icon: simple/tiktok
+      link: https://www.tiktok.com/@gisboost/
 
 nav:
   - Strona główna: index.md
