@@ -13,3 +13,18 @@ Ten projekt wyrósł z przekonania, że zrozumienie przestrzeni, w której żyje
 Zapraszam Cię do eksploracji tego świata razem ze mną. Niezależnie od tego, czy jesteś początkującym entuzjastą GIS, studentem planowania przestrzennego, czy profesjonalistą szukającym nowych perspektyw – znajdziesz tu treści, które pomogą Ci rozwinąć skrzydła w świecie danych przestrzennych.
 
 Strona ta służy również do promocji moich działań w internecie oraz mojej osoby. W sekcji [Projekty](projects.md) znajdziesz informacje o realizowanych przezemnie projekach oraz tego jakie umiejętności nabyłem i jakich narzędzi GIS używałem przy ich prowadzeniu. W zakładce [Poradniki](OpenTripPlanner.md) znajdują się informację jak można używać narzędzi GIS i tworzyć analizy przestrzenne.
+
+# Konges Gra miejska 2025
+
+![schiller](assets/kongres/schiller.png)
+![biblio-secesja](assets/kongres/biblio-secesja.jpg)
+![hotel-savoy](assets/kongres/hotel-savoy.png)
+![komuna-paryska](assets/kongres/komuna-paryska.jpg)
+![kuczka](assets/kongres/kuczka.jpg)
+![majewski](assets/kongres/majewski.jpg)
+![offpiotrkowska](assets/kongres/offpiotrkowska.png)
+![pietryna43](assets/kongres/pietryna43.jpg)
+![polonia](assets/kongres/polonia.png)
+![sad-apelacyjny](assets/kongres/sad-apelacyjny.png)
+![sienkiewicz65](assets/kongres/sienkiewicz65.png)
+![urzad](assets/kongres/urzad.png)
