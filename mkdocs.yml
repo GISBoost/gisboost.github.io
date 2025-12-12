@@ -70,20 +70,30 @@ extra:
 
 nav:
   - Strona główna: index.md
+  - Artykuły naukowe: artykuly.md
+  - Konferencje:
+    - GISday 2025: konferencje/gisday_2025.md
+    - Sympozjum kół naukowych 2025: konferencje/sympozjum2025.md
+    - IV spotkanie użytkowników QGIS w Polsce 2025: konferencje/iv_qgis2025.md
+    - Konferencja Łowicz 2025: konferencje/lowicz_2025.md
+    - Konferencja Rzeszów: konferencje/konferencja_rzeszow.md
+    - MIASTO 2025: konferencje/miasto_2025.md
+    - GISday 2024: konferencje/gisday_2024.md
   - O mnie: O-mnie.md
-  - Umiejętności: skills.md
-  - Projekty:
+  
+  #- Umiejętności: skills.md
+  #- Projekty:
     #- Projekty: projects.md
-    - PMWC: projects/PMWC.md
-    - Model 3D: projects/Model3d.md
-    - Przystanki: projects/przystanki.md
-    - rowery: projects/rowery.md
-    - wskaźnik IZD: projects/wsk_izd.md
-    - Domek BIM: projects/dom_bim.md
-    - leedhome: projects/leedhome.md
-    - shader: projects/shader.md
+    #- PMWC: projects/PMWC.md
+    #- Model 3D: projects/Model3d.md
+    #- Przystanki: projects/przystanki.md
+    #- rowery: projects/rowery.md
+    #- wskaźnik IZD: projects/wsk_izd.md
+    #- Domek BIM: projects/dom_bim.md
+    #- leedhome: projects/leedhome.md
+    #- shader: projects/shader.md
   - Poradniki:
     - OTP: OpenTripPlanner.md
-    - bufory: bufory.md
-  - Tagi: tags.md
-  - Konkurs: konkurs.md
+    #- bufory: bufory.md
+  #- Tagi: tags.md
+  #- Konkurs: konkurs.md

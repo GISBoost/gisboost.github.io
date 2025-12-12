@@ -1,0 +1,1 @@
+# Konferencja GISday 2025

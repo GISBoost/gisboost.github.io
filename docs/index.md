@@ -2,7 +2,7 @@
 <meta name="google-site-verification" content="ih1W248cEBofov9EY3iEEdE6AS_Sftsy7er6eC52uxY" />
 </head>
 
-# Witaj na stronie GISBoost
+## Witaj na stronie GISBoost
 
 Witaj na stronie projektu GISBoost. Moją misją jest zwiększanie świadomości o otaczającym nas środowisku oraz danych przestrzennych dostępnych publicznie oraz nieodpłatnie.
 
@@ -14,6 +14,16 @@ Zapraszam Cię do eksploracji tego świata razem ze mną. Niezależnie od tego, 
 
 Strona ta służy również do promocji moich działań w internecie oraz mojej osoby. W sekcji [Projekty](projects.md) znajdziesz informacje o realizowanych przezemnie projekach oraz tego jakie umiejętności nabyłem i jakich narzędzi GIS używałem przy ich prowadzeniu. W zakładce [Poradniki](OpenTripPlanner.md) znajdują się informację jak można używać narzędzi GIS i tworzyć analizy przestrzenne.
 
+## Artykuł naukowy
+
+Wspólnie z Krzysztofem Ułamkiem opublikowaliśmy artykuł naukowy pod tytułem [Porównanie metod zbierania danych dla mikroskopowej symulacji ruchu w programie VISSIM na przykładzie planowania przestrzennego fragmentu osiedla Złotno w Łodzi](https://doi.org/10.18778/2543-9421.10.01), w czasopiśmie [Konwersatorium Wiedzy o Mieście](https://czasopisma.uni.lodz.pl/konwersatorium/index). Artykuł jest również dostępny na stronie [ResearchGate](https://www.researchgate.net/publication/398536466_Porownanie_metod_zbierania_danych_dla_mikroskopowej_symulacji_ruchu_w_programie_VISSIM_na_przykladzie_planowania_przestrzennego_fragmentu_osiedla_Zlotno_w_Lodzi)
+ 
+[Kliknij tutaj, aby pobrać lub wyświetlić artykuł w formacie PDF.](./assets/7-23_Kaczorowski_Ulamek.pdf)
+
+<iframe src="assets/7-23_Kaczorowski_Ulamek.pdf" width="100%" height="800" style="border:1px solid #ccc;">
+</iframe>
+
+<!--
 # Konges Gra miejska 2025
 
 ![schiller](assets/kongres/schiller.png)
@@ -28,3 +38,4 @@ Strona ta służy również do promocji moich działań w internecie oraz mojej 
 ![sad-apelacyjny](assets/kongres/sad-apelacyjny.png)
 ![sienkiewicz65](assets/kongres/sienkiewicz65.png)
 ![urzad](assets/kongres/urzad.png)
+-->
