@@ -2,6 +2,12 @@
 <meta name="google-site-verification" content="ih1W248cEBofov9EY3iEEdE6AS_Sftsy7er6eC52uxY" />
 </head>
 
+## Nowość: GTFS Dashboard
+
+Przeglądarka danych z projektu monitoringu transportu publicznego w czasie rzeczywistym (GTFS-RT)
+i ich "zrealizowanej" rekonstrukcji GTFS — miasto → miesiąc → dzień → szczegóły, z linkami do
+pobrania danych i wykresami odchyleń od rozkładu. [Zobacz GTFS Dashboard →](https://gisboost.github.io/gtfs-dashboard/)
+
 ## Witaj na stronie GISBoost
 
 Witaj na stronie projektu GISBoost. Moją misją jest zwiększanie świadomości o otaczającym nas środowisku oraz danych przestrzennych dostępnych publicznie oraz nieodpłatnie.
