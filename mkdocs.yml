@@ -61,7 +61,7 @@ extra:
   social:
     - icon: simple/youtube
       link: https://www.youtube.com/@GISBoost/
-    - icon: simple/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/michal-kaczorowsky/
     - icon: simple/instagram
       link: https://www.instagram.com/gisboost/
