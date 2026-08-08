@@ -1,3 +1,7 @@
+---
+description: Poradnik OpenTripPlanner — analiza dostępności czasowej transportu publicznego w QGIS i R, izochrony, czas dojazdu z wielu punktów, konfiguracja serwera OTP 1.5.0.
+---
+
 <!--Testowy [link](test/test.md)-->
 # OpenTripPlanner
 
@@ -120,31 +124,25 @@ dzięki automatyzacją w języku R wykonamy to zadanie przy użyciu pętli `for`
 Diagram ideowy pomysłu prezentuje się następująco:
 
 W pierwszym kroku tworzymy siatkę heksagonalną o oczku 250m.
-<!--![Step1](assets/OpenTripPlanner/step1.webp)-->
-<!--<img src="/assets/OpenTripPlanner/step1.webp" alt="step1" width="70%" height="auto">-->
 <div class="steps">
   <figure>
-    <img src="/assets/OpenTripPlanner/step1.webp" width="50%" />
+    <img src="/assets/OpenTripPlanner/step1.webp" width="50%" alt="Siatka heksagonalna o oczku 250 m wygenerowana w QGIS jako punkt wyjścia do analizy" />
     <figcaption>Krok 1</figcaption>
   </figure>
 </div>
 
 Następnie wybieramy nasz punkt startowy, ja wybrałem miejsce przed wydziałem budownictwa na Politechnice Łódzkiej.
-<!--![Step2](assets/OpenTripPlanner/step2.webp)-->
-<!--<img src="/assets/OpenTripPlanner/step2.webp" alt="step1" width="70%" height="auto">-->
 <div class="steps">
   <figure>
-    <img src="/assets/OpenTripPlanner/step2.webp" width="50%" />
+    <img src="/assets/OpenTripPlanner/step2.webp" width="50%" alt="Wybór punktu startowego analizy przed wydziałem budownictwa Politechniki Łódzkiej" />
     <figcaption>Krok 2</figcaption>
   </figure>
 </div>
 
 Następnie generujemy dla każdego heksagonu centroidy.
-<!--![Step3](assets/OpenTripPlanner/step3.webp)-->
-<!--<img src="/assets/OpenTripPlanner/step3.webp" alt="step1" width="70%" height="auto">-->
 <div class="steps">
   <figure>
-    <img src="/assets/OpenTripPlanner/step3.webp" width="50%" />
+    <img src="/assets/OpenTripPlanner/step3.webp" width="50%" alt="Centroidy wygenerowane dla każdego heksagonu siatki w QGIS" />
     <figcaption>Krok 3</figcaption>
   </figure>
 </div>
@@ -156,11 +154,9 @@ y(transform($geometry, 'EPSG:2177', 'EPSG:4326'))
 ```
 
 Ostatecznie nasz skrypt będzie działał tak jak zostało to pokazane na obrazku poniżej
-<!--![Step5](assets/OpenTripPlanner/step5.webp)-->
-<!--<img src="/assets/OpenTripPlanner/step5.webp" alt="step1" width="70%" height="auto">-->
 <div class="steps">
   <figure>
-    <img src="/assets/OpenTripPlanner/step5.webp" width="50%" />
+    <img src="/assets/OpenTripPlanner/step5.webp" width="50%" alt="Wynik skryptu R liczącego czas dojazdu transportem publicznym z wielu punktów do jednej lokalizacji" />
     <figcaption>Krok 5</figcaption>
   </figure>
 </div>

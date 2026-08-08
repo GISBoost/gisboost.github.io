@@ -1,3 +1,7 @@
+---
+description: Michał Kaczorowski, twórca GISBoost — inżynier planowania przestrzennego i student architektury, autor kanału YouTube o QGIS, modelowaniu 3D i analizach geoprzestrzennych.
+---
+
 # O mnie
 
 ![Image](assets/zdj_MK.jpg){align=left width=25%}

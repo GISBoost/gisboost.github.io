@@ -1,3 +1,10 @@
+---
+title: GISBoost — narzędzia GIS do analizy transportu publicznego
+description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP, GTFS Dashboard) i materiały edukacyjne o QGIS oraz danych przestrzennych.
+---
+
+# GISBoost — GIS, QGIS i dane transportu publicznego
+
 <head>
 <meta name="google-site-verification" content="ih1W248cEBofov9EY3iEEdE6AS_Sftsy7er6eC52uxY" />
 </head>

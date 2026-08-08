@@ -1,5 +1,5 @@
 site_name: GISBoost
-site_url: https://sitename.example
+site_url: https://gisboost.github.io/
 theme:
   name: material
   font:
@@ -61,8 +61,8 @@ extra:
   social:
     - icon: simple/youtube
       link: https://www.youtube.com/@GISBoost/
-    #- icon: simple/linkedin
-      #link: https://www.linkedin.com/in/michal-kaczorowsky/
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/michal-kaczorowsky/
     - icon: simple/instagram
       link: https://www.instagram.com/gisboost/
     - icon: simple/tiktok
