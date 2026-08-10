@@ -2,10 +2,11 @@
 description: Poradnik OpenTripPlanner — analiza dostępności czasowej transportu publicznego w QGIS i R, izochrony, czas dojazdu z wielu punktów, konfiguracja serwera OTP 1.5.0.
 ---
 
-<!--Testowy [link](test/test.md)-->
 # OpenTripPlanner
 
-STRONA W BUDOWIE
+Poradnik instalacji i konfiguracji OpenTripPlanner na własne potrzeby. Jeśli szukasz gotowej
+wtyczki QGIS, która korzysta z OTP bez ręcznej konfiguracji serwera, zobacz
+[easy-OTP](projekty/easy-otp.md).
 
 ## **Wstęp**
 To repozytorium zawiera prezentacje wygłoszoną na wydarzeniu GISday 2024 na Uniwersytecie Łódzkim na wydziale Ekonomiczno - socjologicznym.
@@ -27,7 +28,7 @@ Podsumowując, narzędzia wbudowane oraz wtyczki są to narzędzia szybko dział
 Biorąc pod uwagę zalety oraz wady tych narzędzi znajdują one zastosowanie w prostych analizach oraz przy małym obszarze opracowania.
 
 ## OpenTripPlanner + R
-W budowie
+
 ### Pobieranie danych
 Przed przystąpieniem do analiz zostanie omówione w jaki sposób pozyskać dane potrzebne do przeprowadzenia obliczeń.
 
@@ -208,14 +209,13 @@ Mapa czasów dojazdów i ilości potrzebnych przesiadek prezentuje się w nastę
 
 OTP posiada moduł pozwalający policzyć czas dojazdu do wielu różnych punktów. Do obliczenia tego uzyjemy polecenia surface. Mogłoby się wydawać, że będzie to powtórzenie poprzedniej analiy, jednak poprzez użycie surface znacznie skraca nam się czas analiy, ponieważ narzędzie OTP jest w stanie wygenerować surface model mniej więcej w takim samym czasie co pojedyncze zapytanie o trasę. Osiągane jest to przez zapisanie czasu dojazdu do każdego miejsca z punktu startowego w komórkach rastra.
 
-W celu przeprowadzenia...
-asdasdasd
-
+Ta sekcja jest w przygotowaniu, konfiguracja polecenia `surface` opiszę w kolejnej aktualizacji.
 
 ## Narzędzia symulacyjne VISSIM + TomTom MOVE
-W budowie
+
+Sekcja w przygotowaniu.
 
 ## Źródła
-W budowie
+
 Ta prezentacja napewno by nie powstała gdyby nie niesamowita praca wykonana przez użytkownika [marcusyoung](https://github.com/marcusyoung) i jego [bibliotekę do języka R](https://github.com/marcusyoung/otpr) 
 oraz [poradnik jak korzystać z OTP](https://github.com/marcusyoung/otp-tutorial)

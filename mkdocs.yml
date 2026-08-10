@@ -53,8 +53,6 @@ markdown_extensions:
   - def_list
 
 plugins:
-  - tags:
-      tags_file: tags.md
   - search
 
 extra:
@@ -70,6 +68,11 @@ extra:
 
 nav:
   - Strona główna: index.md
+  - O mnie: O-mnie.md
+  - Projekty:
+    - easy-OTP: projekty/easy-otp.md
+    - easy-GTFS-RT: projekty/easy-gtfs-rt.md
+    - GTFS Dashboard: projekty/gtfs-dashboard.md
   - Artykuły naukowe: artykuly.md
   - Konferencje:
     - GISday 2025: konferencje/gisday_2025.md
@@ -79,21 +82,5 @@ nav:
     - Konferencja Rzeszów: konferencje/konferencja_rzeszow.md
     - MIASTO 2025: konferencje/miasto_2025.md
     - GISday 2024: konferencje/gisday_2024.md
-  - O mnie: O-mnie.md
-  
-  #- Umiejętności: skills.md
-  #- Projekty:
-    #- Projekty: projects.md
-    #- PMWC: projects/PMWC.md
-    #- Model 3D: projects/Model3d.md
-    #- Przystanki: projects/przystanki.md
-    #- rowery: projects/rowery.md
-    #- wskaźnik IZD: projects/wsk_izd.md
-    #- Domek BIM: projects/dom_bim.md
-    #- leedhome: projects/leedhome.md
-    #- shader: projects/shader.md
   - Poradniki:
     - OTP: OpenTripPlanner.md
-    #- bufory: bufory.md
-  #- Tagi: tags.md
-  #- Konkurs: konkurs.md
