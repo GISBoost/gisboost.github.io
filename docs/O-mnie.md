@@ -1,5 +1,5 @@
 ---
-description: Michał Kaczorowski, twórca GISBoost — inżynier planowania przestrzennego, pracuje w TomTom, autor otwartych narzędzi GIS do analizy transportu publicznego (easy-OTP, easy-GTFS-RT, GTFS Dashboard).
+description: Michał Kaczorowski, twórca GISBoost — inżynier planowania przestrzennego, pracuje w TomTom, autor otwartych narzędzi GIS do analizy transportu publicznego (easy-OTP, easy-GTFS-RT, GTFS Dashboard, Mapy analiz).
 ---
 
 # O mnie
@@ -11,7 +11,8 @@ description: Michał Kaczorowski, twórca GISBoost — inżynier planowania prze
 Jestem magistrem inżynierem planowania przestrzennego. Pracuję w TomTom.
 GISBoost to mój projekt własny: piszę tu otwarte narzędzia GIS do analizy transportu
 publicznego ([easy-OTP](projekty/easy-otp.md), [easy-GTFS-RT](projekty/easy-gtfs-rt.md),
-[GTFS Dashboard](projekty/gtfs-dashboard.md)) i prowadzę kanał [GISBoost](https://www.youtube.com/@GISBoost)
+[GTFS Dashboard](projekty/gtfs-dashboard.md), [Mapy analiz](projekty/mapy-analizy.md))
+i prowadzę kanał [GISBoost](https://www.youtube.com/@GISBoost)
 na YouTube o QGIS, modelowaniu 3D i analizach geoprzestrzennych. Wspólnie z Krzysztofem
 Ułamkiem opublikowałem [artykuł naukowy](artykuly.md) o metodach zbierania danych do
 mikroskopowej symulacji ruchu.
@@ -29,6 +30,7 @@ Poza pracą i GISBoost sędziuję koszykówkę, od 2018 roku.
 ## Więcej
 
 Zawodowe projekty transportowe/GIS opisuję na stronach [easy-OTP](projekty/easy-otp.md),
-[easy-GTFS-RT](projekty/easy-gtfs-rt.md) i [GTFS Dashboard](projekty/gtfs-dashboard.md).
+[easy-GTFS-RT](projekty/easy-gtfs-rt.md), [GTFS Dashboard](projekty/gtfs-dashboard.md)
+i [Mapy analiz](projekty/mapy-analizy.md).
 Wcześniejsze [projekty studenckie](projects.md) (analizy urbanistyczne, modelowanie 3D, BIM)
 zebrane są osobno.

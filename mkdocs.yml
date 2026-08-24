@@ -73,6 +73,12 @@ nav:
     - easy-OTP: projekty/easy-otp.md
     - easy-GTFS-RT: projekty/easy-gtfs-rt.md
     - GTFS Dashboard: projekty/gtfs-dashboard.md
+    - Mapy analiz: projekty/mapy-analizy.md
+  - Analizy:
+    - Wszystkie analizy: analizy/index.md
+    - Dochód na poziomie obwodu spisowego: analizy/dochod-obwody-spisowe.md
+    - Dostępność a dochód w Łodzi: analizy/dostepnosc-dochod-lodz.md
+    - Dostępność do uczelni w 6 miastach: analizy/dostepnosc-uczelnie.md
   - Artykuły naukowe: artykuly.md
   - Konferencje:
     - GISday 2025: konferencje/gisday_2025.md

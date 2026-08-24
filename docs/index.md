@@ -1,6 +1,6 @@
 ---
 title: GISBoost — narzędzia GIS do analizy transportu publicznego
-description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP, easy-GTFS-RT, GTFS Dashboard) i materiały edukacyjne o QGIS oraz danych przestrzennych.
+description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP, easy-GTFS-RT, GTFS Dashboard, Mapy analiz) i materiały edukacyjne o QGIS oraz danych przestrzennych.
 ---
 
 # GISBoost — GIS, QGIS i dane transportu publicznego
@@ -24,6 +24,8 @@ Trzeba tylko mieć narzędzia, żeby je przetworzyć.
 - **[GTFS Dashboard](projekty/gtfs-dashboard.md)** — przeglądarka tych zrekonstruowanych
   rozkładów: miasto → miesiąc → dzień → szczegóły, z wykresami odchyleń od planu.
   [Zobacz dashboard →](https://gisboost.github.io/gtfs-dashboard/)
+- **[Mapy analiz](projekty/mapy-analizy.md)** — interaktywne mapy towarzyszące wpisom
+  z sekcji Analizy, zamiast statycznych obrazków. [Zobacz mapy →](https://gisboost.github.io/mapy-analizy/)
 
 W zakładce [Poradniki](OpenTripPlanner.md) znajdziesz materiały o tym, jak samemu
 skonfigurować i używać OpenTripPlanner do analiz przestrzennych. Więcej o mnie i moim
