@@ -4,6 +4,11 @@ description: Dostępność do uczelni transportem publicznym w Łodzi i 6 polski
 
 # 61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny: dostępność akademicka w 6 miastach
 
+> **Uwaga: treść eksperymentalna.** Ten wpis w całości wygenerowała AI (Claude) na
+> podstawie mojego kodu i danych — to wstępna, robocza wersja, która ma pomóc mi
+> rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje
+> traktuj jako punkt wyjścia do dalszej weryfikacji, nie jako gotowy wynik.
+
 W [poprzednim wpisie](dostepnosc-dochod-lodz.md) sprawdziłem, że dostępność transportowa
 w Łodzi zależy głównie od odległości od centrum, nie od dochodu. Tu zawężam pytanie do
 konkretnej grupy i konkretnego celu: **studenci i uczelnie**. Zamiast całej populacji,

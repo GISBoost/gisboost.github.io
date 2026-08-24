@@ -4,6 +4,11 @@ description: Czy biedniejsze dzielnice Łodzi mają gorszy dostęp do transportu
 
 # Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód w Łodzi
 
+> **Uwaga: treść eksperymentalna.** Ten wpis w całości wygenerowała AI (Claude) na
+> podstawie mojego kodu i danych — to wstępna, robocza wersja, która ma pomóc mi
+> rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje
+> traktuj jako punkt wyjścia do dalszej weryfikacji, nie jako gotowy wynik.
+
 W [poprzednim wpisie](dochod-obwody-spisowe.md) opisałem, jak oszacować dochód mieszkańców
 na poziomie obwodu spisowego, skoro polski spis go nie zbiera. Tu tę warstwę łączę
 z pomiarem dostępności czasowej transportu publicznego w Łodzi i sprawdzam wprost
