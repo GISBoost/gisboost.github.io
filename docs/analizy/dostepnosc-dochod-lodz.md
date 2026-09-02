@@ -130,7 +130,7 @@ estymacja, nie zmierzony dochód.
 
 Pełny pipeline (instalacja r5r, przygotowanie danych, wywołania, wykresy) jest opisany
 krok po kroku w repozytorium
-[easy-OTP](https://github.com/GISBoost/easy-OTP), folder `tools/accessibility_lodz/`
+[easy-R5](https://github.com/GISBoost/easy-R5), folder `tools/accessibility_lodz/`
 (`HANDOFF.md`, `RESEARCH_LOG.md`, `COLUMNS.md` z dokładnym znaczeniem każdej kolumny wyniku).
 
 Kolejny wpis zawęża grupę docelową do studentów i sprawdza dostęp do uczelni, najpierw

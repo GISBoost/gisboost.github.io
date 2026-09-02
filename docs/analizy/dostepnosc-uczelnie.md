@@ -206,7 +206,7 @@ nie ujawnić, dopóki nie trafi na odpowiednią kombinację danych.
 ## Dane i kod
 
 Pełny pipeline dla Łodzi: repozytorium
-[easy-OTP](https://github.com/GISBoost/easy-OTP), folder `tools/accessibility_lodz/`
+[easy-R5](https://github.com/GISBoost/easy-R5), folder `tools/accessibility_lodz/`
 (`STUDENTS_ANALYSIS.md`). Dla sześciu miast: folder `tools/accessibility_cities/`
 (`MULTI_CITY_ANALYSIS.md` za wyniki, `HOWTO_MANUAL.md` za instrukcję odtworzenia całości od
 zera, łącznie z zapytaniami Overpass i kodem R).

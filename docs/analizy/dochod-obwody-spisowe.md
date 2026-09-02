@@ -160,7 +160,7 @@ o dochodzie X" to średnia obszarowa, nie cecha każdego mieszkańca z osobna.
 
 Sześć plików GPKG (jeden per miasto, warstwy `obwody_spisowe` i `obwody_glosowania`) razem
 ze skryptami są w repozytorium
-[easy-OTP](https://github.com/GISBoost/easy-OTP), folder `tools/ses_income_lodz/`. Pełna
+[easy-R5](https://github.com/GISBoost/easy-R5), folder `tools/ses_income_lodz/`. Pełna
 metodologia z każdym wzorem i pełną listą źródeł jest tam w `METHODOLOGY.md`, krok po kroku
 pipeline'u w `HANDOFF.md`.
 
