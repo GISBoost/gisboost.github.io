@@ -71,6 +71,7 @@ nav:
   - O mnie: O-mnie.md
   - Projekty:
     - easy-OTP: projekty/easy-otp.md
+    - Easy-R5: projekty/easy-r5.md
     - easy-GTFS-RT: projekty/easy-gtfs-rt.md
     - GTFS Dashboard: projekty/gtfs-dashboard.md
     - Mapy analiz: projekty/mapy-analizy.md
