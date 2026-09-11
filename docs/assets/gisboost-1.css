@@ -28,41 +28,44 @@
   --read: 46rem;
   --wide: 70rem;
 }
+/* Dark mode: modeled on GitHub's own dark theme (canvas.default/subtle/overlay,
+   border.default, fg.default/muted, accent.fg) instead of a flatter near-black —
+   gives the page, cards and belt distinct steps instead of blending together. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --bg: #10141a;
-    --surface: #171c24;
-    --surface-2: #1e2530;
-    --ink: #e7ecf2;
-    --ink-muted: #8ca0b3;
-    --ink-faint: #64768a;
-    --border: #2a3240;
+    --bg: #161b22;
+    --surface: #21262d;
+    --surface-2: #2d333b;
+    --ink: #e6edf3;
+    --ink-muted: #8b949e;
+    --ink-faint: #6e7681;
+    --border: #30363d;
     --chrome: #0d1117;
-    --chrome-ink: #e7ecf2;
-    --chrome-muted: #8fa3b8;
-    --accent: #5588c8;
-    --accent-ink: #86aede;
-    --accent-soft: #1c2b3d;
-    --focus: #5588c8;
+    --chrome-ink: #e6edf3;
+    --chrome-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-ink: #79c0ff;
+    --accent-soft: #132e4d;
+    --focus: #58a6ff;
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #10141a;
-  --surface: #171c24;
-  --surface-2: #1e2530;
-  --ink: #e7ecf2;
-  --ink-muted: #8ca0b3;
-  --ink-faint: #64768a;
-  --border: #2a3240;
+  --bg: #161b22;
+  --surface: #21262d;
+  --surface-2: #2d333b;
+  --ink: #e6edf3;
+  --ink-muted: #8b949e;
+  --ink-faint: #6e7681;
+  --border: #30363d;
   --chrome: #0d1117;
-  --chrome-ink: #e7ecf2;
-  --chrome-muted: #8fa3b8;
-  --accent: #5588c8;
-  --accent-ink: #86aede;
-  --accent-soft: #1c2b3d;
-  --focus: #5588c8;
+  --chrome-ink: #e6edf3;
+  --chrome-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-ink: #79c0ff;
+  --accent-soft: #132e4d;
+  --focus: #58a6ff;
 }
 
 /* ---- base reset (safe to load ahead of any site's own stylesheet) ---- */
@@ -81,15 +84,22 @@ img { max-width: 100%; }
   display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
   padding: 10px 28px;
 }
+/* .brand is a plain wrapper, not a link — .mark and .sub are two independent
+   links to two different places (global portal vs. this site's own home), so
+   don't nest them inside one anchor. */
 .topbar .brand {
-  display: flex; align-items: baseline; gap: 0.5rem;
-  font-family: var(--display); font-weight: 800; font-size: 0.9rem;
-  letter-spacing: 0.01em; color: var(--chrome-ink);
-  text-decoration: none; white-space: nowrap;
+  display: flex; align-items: baseline; gap: 0.5rem; white-space: nowrap;
 }
-.topbar .brand .mark { font-family: var(--display); font-weight: 800; }
-.topbar .brand .sub { font-family: var(--sans); font-weight: 600; color: var(--chrome-muted); }
-.topbar .brand:hover .sub { color: var(--chrome-ink); }
+.topbar .brand .mark {
+  font-family: var(--display); font-weight: 800; font-size: 0.9rem;
+  letter-spacing: 0.01em; color: var(--chrome-ink); text-decoration: none;
+}
+.topbar .brand .mark:hover { text-decoration: underline; }
+.topbar .brand .sub {
+  font-family: var(--sans); font-weight: 600; font-size: 0.9rem;
+  color: var(--chrome-muted); text-decoration: none;
+}
+.topbar .brand .sub:hover { color: var(--chrome-ink); text-decoration: underline; }
 .topbar .topnav { display: flex; align-items: center; gap: 4px; margin-left: auto; flex-wrap: wrap; }
 .topbar .topnav-link {
   all: unset; cursor: pointer; font-family: var(--sans); font-size: 0.8rem; font-weight: 600;
@@ -107,12 +117,18 @@ img { max-width: 100%; }
 }
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
 .card {
-  display: block; text-decoration: none; color: inherit; background: var(--surface);
-  border: 1px solid var(--border); border-radius: 12px; padding: 20px;
-  transition: border-color 0.15s, transform 0.15s;
+  display: block; position: relative; text-decoration: none; color: inherit;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 20px; transition: border-color 0.15s, transform 0.15s;
 }
 .card:hover { border-color: var(--accent); transform: translateY(-2px); }
 .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Whole-card link pattern for cards built from <div class="card"> + one real <a> inside
+   (needed where markdown must render inside — an outer <a class="card"> breaks python-
+   markdown's md_in_html block parsing). Give the inner link this class to stretch it over
+   the entire card, so hovering/clicking anywhere on the card follows it. */
+.card a.stretched-link { text-decoration: none; color: inherit; }
+.card a.stretched-link::after { content: ""; position: absolute; inset: 0; }
 .card h2, .card h3 {
   font-family: var(--display); font-weight: 700; font-size: 1.08rem;
   margin: 0 0 8px; color: var(--ink);

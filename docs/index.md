@@ -34,7 +34,7 @@ Trzeba tylko mieć narzędzia, żeby je przetworzyć.
 
 Codzienne nagrywanie danych GTFS-RT, 27 miast, 9 krajów, od lipca 2026.
 
-[Zobacz →](projekty/easy-gtfs-rt.md)
+[Zobacz →](projekty/easy-gtfs-rt.md){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -43,7 +43,7 @@ Codzienne nagrywanie danych GTFS-RT, 27 miast, 9 krajów, od lipca 2026.
 
 Z pozycji pojazdów powstaje zrealizowany rozkład jazdy (P50 / P85).
 
-[Zobacz →](projekty/easy-otp.md)
+[Zobacz →](projekty/easy-otp.md){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -52,7 +52,7 @@ Z pozycji pojazdów powstaje zrealizowany rozkład jazdy (P50 / P85).
 
 Katalog nagrań, wykresy odchyleń od rozkładu, pliki do pobrania.
 
-[Zobacz dashboard →](https://gisboost.github.io/gtfs-dashboard/)
+[Zobacz dashboard →](https://gisboost.github.io/gtfs-dashboard/){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -61,7 +61,7 @@ Katalog nagrań, wykresy odchyleń od rozkładu, pliki do pobrania.
 
 Wtyczki QGIS do analizy dostępności — OpenTripPlanner i Conveyal R5.
 
-[Zobacz →](projekty/easy-r5.md)
+[Zobacz →](projekty/easy-r5.md){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -70,16 +70,7 @@ Wtyczki QGIS do analizy dostępności — OpenTripPlanner i Conveyal R5.
 
 Interaktywne mapy, opisy metody i artykuły naukowe.
 
-[Zobacz analizy →](analizy/index.md)
-</div>
-
-<div class="card" markdown="1">
-<p class="eyebrow">6 · Współpraca</p>
-### Usługa na zlecenie
-
-Ten sam łańcuch, uruchomiony dla Twojego obszaru i Twojego pytania.
-
-[Zobacz ofertę →](wspolpraca.md)
+[Zobacz analizy →](analizy/index.md){: .stretched-link }
 </div>
 
 </div>

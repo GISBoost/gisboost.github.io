@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% block extrahead %}
 {{ super() }}
+<!-- theme.font only loads the text/code pair (IBM Plex Sans/Mono) — Archivo is used
+     for headings via mkdocs-overrides.css but was never actually fetched as a webfont,
+     so it silently fell back. Load it the same way the vanilla sites do. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&display=swap" rel="stylesheet">
 <script data-goatcounter="https://gisboostgithub.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
   /* gisboost-1.css tokens follow prefers-color-scheme / [data-theme], the same as

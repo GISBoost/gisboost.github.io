@@ -15,9 +15,10 @@ lista. Kod i dane pośrednie są publiczne w repozytorium
 <div class="card" markdown="1">
 ### Dostępność do uczelni w 6 miastach
 
-61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny.
+61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny. Opis
+metody + link do interaktywnej mapy w środku.
 
-[Przeczytaj](dostepnosc-uczelnie.md) · [Otwórz mapę](https://gisboost.github.io/mapy-analizy/uczelnie-dostepnosc/)
+[Przeczytaj →](dostepnosc-uczelnie.md){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -25,7 +26,7 @@ lista. Kod i dane pośrednie są publiczne w repozytorium
 
 Ile zarabia Twój obwód? Szacowanie dochodu tam, gdzie spis go nie mierzy.
 
-[Przeczytaj](dochod-obwody-spisowe.md)
+[Przeczytaj →](dochod-obwody-spisowe.md){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -33,7 +34,7 @@ Ile zarabia Twój obwód? Szacowanie dochodu tam, gdzie spis go nie mierzy.
 
 Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód.
 
-[Przeczytaj](dostepnosc-dochod-lodz.md)
+[Przeczytaj →](dostepnosc-dochod-lodz.md){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -41,7 +42,7 @@ Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód.
 
 Jak długo trzeba czekać na przystanku — mapa dla kilku miast.
 
-[Otwórz mapę](https://gisboost.github.io/mapy-analizy/odstepy-przystankow/)
+[Otwórz mapę →](https://gisboost.github.io/mapy-analizy/odstepy-przystankow/){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -49,7 +50,7 @@ Jak długo trzeba czekać na przystanku — mapa dla kilku miast.
 
 Izochrony dojazdu transportem publicznym, 6 miast.
 
-[Otwórz mapę](https://gisboost.github.io/mapy-analizy/izochrony-transport/)
+[Otwórz mapę →](https://gisboost.github.io/mapy-analizy/izochrony-transport/){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -57,7 +58,7 @@ Izochrony dojazdu transportem publicznym, 6 miast.
 
 Dostępność liczona na rozkładzie planowym kontra na tym, co pojazdy faktycznie zrobiły.
 
-[Otwórz mapę](https://gisboost.github.io/mapy-analizy/opoznienia-dostepnosc/)
+[Otwórz mapę →](https://gisboost.github.io/mapy-analizy/opoznienia-dostepnosc/){: .stretched-link }
 </div>
 
 <div class="card" markdown="1">
@@ -65,7 +66,7 @@ Dostępność liczona na rozkładzie planowym kontra na tym, co pojazdy faktyczn
 
 Pełny raport z metodą i wykresami odchyleń, nie tylko mapa.
 
-[Otwórz raport](https://gisboost.github.io/mapy-analizy/badanie-opoznienia/)
+[Otwórz raport →](https://gisboost.github.io/mapy-analizy/badanie-opoznienia/){: .stretched-link }
 </div>
 
 </div>
