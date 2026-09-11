@@ -2,4 +2,22 @@
 {% block extrahead %}
 {{ super() }}
 <script data-goatcounter="https://gisboostgithub.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+  /* gisboost-1.css tokens follow prefers-color-scheme / [data-theme], the same as
+     mapy-analizy/gtfs-dashboard/easy-R5 — but Material's own light/dark toggle only
+     ever sets [data-md-color-scheme] on <body>. Mirror it onto <html data-theme> so
+     shared tokens (used by .card, .cards, .tag, .eyebrow) follow Material's choice
+     instead of silently falling back to the OS preference. */
+  (function () {
+    function sync() {
+      var scheme = document.body.getAttribute("data-md-color-scheme");
+      document.documentElement.setAttribute("data-theme", scheme === "slate" ? "dark" : "light");
+    }
+    function start() {
+      sync();
+      new MutationObserver(sync).observe(document.body, { attributes: true, attributeFilter: ["data-md-color-scheme"] });
+    }
+    if (document.body) { start(); } else { document.addEventListener("DOMContentLoaded", start); }
+  })();
+</script>
 {% endblock %}

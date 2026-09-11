@@ -14,16 +14,16 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark mode
-      primary: green
-      accent: light blue
-  
+      primary: blue grey
+      accent: blue
+
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-sunny
         name: Light mode
-      primary: green
-      accent: light blue
+      primary: blue grey
+      accent: blue
   features:
     - navigation.instant
     - navigation.instant.prefetch

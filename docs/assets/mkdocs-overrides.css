@@ -1,42 +1,62 @@
-/* Maps mkdocs-material's own CSS variables onto GISBoost tokens from gisboost-1.css,
-   so the portal shares palette/type with mapy-analizy, gtfs-dashboard and easy-R5
-   without fighting Material's header/search/drawer JS (see plan §3). */
+/* Maps mkdocs-material's own CSS variables onto GISBoost's design — a single dark navy
+   belt (header + tabs merged into one), a light gray-blue page, white cards, one muted
+   blue accent. No brand green. Values are hardcoded here (not var()) because Material's
+   own dark/light toggle (data-md-color-scheme) is independent of the OS-preference-driven
+   tokens in gisboost-1.css — this keeps the two in sync regardless of which one the
+   visitor's browser follows. */
 
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: var(--green);
-  --md-primary-fg-color--light: var(--green);
-  --md-primary-fg-color--dark: var(--green-ink);
-  --md-primary-bg-color: var(--chrome-ink);
-  --md-accent-fg-color: var(--blue);
-  --md-default-bg-color: var(--paper);
-  --md-default-fg-color: var(--ink);
-  --md-default-fg-color--light: var(--ink-muted);
-  --md-default-fg-color--lighter: var(--ink-faint);
-  --md-typeset-color: var(--ink);
-  --md-typeset-a-color: var(--blue-ink);
+  --md-primary-fg-color: #33465c;
+  --md-primary-fg-color--light: #33465c;
+  --md-primary-fg-color--dark: #33465c;
+  --md-primary-bg-color: #f3f6fa;
+  --md-accent-fg-color: #2c5c94;
+  --md-default-bg-color: #eef1f5;
+  --md-default-fg-color: #1b2430;
+  --md-default-fg-color--light: #5c6b7a;
+  --md-default-fg-color--lighter: #8695a6;
+  --md-typeset-color: #1b2430;
+  --md-typeset-a-color: #2c5c94;
+  --md-footer-bg-color: #33465c;
+  --md-footer-fg-color: #f3f6fa;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: var(--green);
-  --md-primary-fg-color--light: var(--green);
-  --md-primary-fg-color--dark: var(--green-ink);
-  --md-primary-bg-color: var(--chrome-ink);
-  --md-accent-fg-color: var(--blue);
-  --md-default-bg-color: var(--paper);
-  --md-default-fg-color: var(--ink);
-  --md-default-fg-color--light: var(--ink-muted);
-  --md-default-fg-color--lighter: var(--ink-faint);
-  --md-typeset-color: var(--ink);
-  --md-typeset-a-color: var(--blue-ink);
-  --md-hue: 200;
+  --md-hue: 220;
+  --md-primary-fg-color: #0d1117;
+  --md-primary-fg-color--light: #0d1117;
+  --md-primary-fg-color--dark: #0d1117;
+  --md-primary-bg-color: #e7ecf2;
+  --md-accent-fg-color: #5588c8;
+  --md-default-bg-color: #10141a;
+  --md-default-fg-color: #e7ecf2;
+  --md-default-fg-color--light: #8ca0b3;
+  --md-default-fg-color--lighter: #64768a;
+  --md-typeset-color: #e7ecf2;
+  --md-typeset-a-color: #5588c8;
+  --md-footer-bg-color: #0d1117;
+  --md-footer-fg-color: #e7ecf2;
 }
 
-.md-typeset a { color: var(--blue-ink); }
-.md-typeset a:hover { color: var(--blue); }
+.md-typeset a { color: var(--md-typeset-a-color); }
+.md-typeset a:hover { color: var(--md-accent-fg-color); }
 
-body, .md-typeset { font-family: var(--sans); }
-.md-typeset code, .md-typeset pre, .md-typeset kbd { font-family: var(--mono); }
+/* Cards keep a white/near-black surface regardless of the OS-preference-driven
+   gisboost-1.css tokens, so they stay in sync with Material's own toggle. */
+.md-typeset .cards .card { background: #ffffff; border-color: #d2d9e1; }
+[data-md-color-scheme="slate"] .md-typeset .cards .card { background: #171c24; border-color: #2a3240; }
+.md-typeset .cards .card:hover { border-color: #2c5c94; }
+[data-md-color-scheme="slate"] .md-typeset .cards .card:hover { border-color: #5588c8; }
+
+body, .md-typeset { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+.md-typeset code, .md-typeset pre, .md-typeset kbd {
+  font-family: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+}
 .md-typeset h1, .md-typeset h2, .md-typeset h3,
 .md-header__topic, .md-nav__title, .md-ellipsis {
-  font-family: var(--display);
+  font-family: "Archivo", "IBM Plex Sans", system-ui, sans-serif;
 }
+
+/* Merge header + tabs into one continuous navy belt instead of Material's default
+   two-tone (primary vs primary--dark) look. */
+.md-tabs { border-top: 1px solid rgba(255, 255, 255, 0.08); }
