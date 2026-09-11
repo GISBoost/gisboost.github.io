@@ -4,6 +4,19 @@ description: Dostępność do uczelni transportem publicznym w Łodzi i 6 polski
 
 # 61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny: dostępność akademicka w 6 miastach
 
+<head>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="GISBoost">
+<meta property="og:title" content="61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny">
+<meta property="og:description" content="Dostępność do uczelni transportem publicznym w Łodzi i 6 polskich miastach. Jaka część miasta ze studentami nie dojedzie na zajęcia w pół godziny i dlaczego dochód tego nie tłumaczy.">
+<meta property="og:url" content="https://gisboost.github.io/analizy/dostepnosc-uczelnie/">
+<meta property="og:image" content="https://gisboost.github.io/assets/analizy/6miast-brak-dostepu-uczelnie.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny">
+<meta name="twitter:description" content="Dostępność do uczelni transportem publicznym w Łodzi i 6 polskich miastach.">
+<meta name="twitter:image" content="https://gisboost.github.io/assets/analizy/6miast-brak-dostepu-uczelnie.png">
+</head>
+
 > **Uwaga: treść eksperymentalna.** Ten wpis w całości wygenerowała AI (Claude) na
 > podstawie mojego kodu i danych — to wstępna, robocza wersja, która ma pomóc mi
 > rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje

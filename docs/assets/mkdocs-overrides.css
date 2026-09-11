@@ -1,0 +1,42 @@
+/* Maps mkdocs-material's own CSS variables onto GISBoost tokens from gisboost-1.css,
+   so the portal shares palette/type with mapy-analizy, gtfs-dashboard and easy-R5
+   without fighting Material's header/search/drawer JS (see plan §3). */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--green);
+  --md-primary-fg-color--light: var(--green);
+  --md-primary-fg-color--dark: var(--green-ink);
+  --md-primary-bg-color: var(--chrome-ink);
+  --md-accent-fg-color: var(--blue);
+  --md-default-bg-color: var(--paper);
+  --md-default-fg-color: var(--ink);
+  --md-default-fg-color--light: var(--ink-muted);
+  --md-default-fg-color--lighter: var(--ink-faint);
+  --md-typeset-color: var(--ink);
+  --md-typeset-a-color: var(--blue-ink);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--green);
+  --md-primary-fg-color--light: var(--green);
+  --md-primary-fg-color--dark: var(--green-ink);
+  --md-primary-bg-color: var(--chrome-ink);
+  --md-accent-fg-color: var(--blue);
+  --md-default-bg-color: var(--paper);
+  --md-default-fg-color: var(--ink);
+  --md-default-fg-color--light: var(--ink-muted);
+  --md-default-fg-color--lighter: var(--ink-faint);
+  --md-typeset-color: var(--ink);
+  --md-typeset-a-color: var(--blue-ink);
+  --md-hue: 200;
+}
+
+.md-typeset a { color: var(--blue-ink); }
+.md-typeset a:hover { color: var(--blue); }
+
+body, .md-typeset { font-family: var(--sans); }
+.md-typeset code, .md-typeset pre, .md-typeset kbd { font-family: var(--mono); }
+.md-typeset h1, .md-typeset h2, .md-typeset h3,
+.md-header__topic, .md-nav__title, .md-ellipsis {
+  font-family: var(--display);
+}

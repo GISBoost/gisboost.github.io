@@ -4,6 +4,19 @@ description: Jak oszacować dochód mieszkańców na poziomie obwodu spisowego w
 
 # Ile zarabia Twój obwód? Szacowanie dochodu tam, gdzie spis go nie mierzy
 
+<head>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="GISBoost">
+<meta property="og:title" content="Ile zarabia Twój obwód? Szacowanie dochodu tam, gdzie spis go nie mierzy">
+<meta property="og:description" content="Jak oszacować dochód mieszkańców na poziomie obwodu spisowego w Polsce, skoro spis powszechny go nie zbiera. Metoda, weryfikacja i wyniki dla 6 miast.">
+<meta property="og:url" content="https://gisboost.github.io/analizy/dochod-obwody-spisowe/">
+<meta property="og:image" content="https://gisboost.github.io/assets/analizy/lodz-mapa-dochod.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ile zarabia Twój obwód? Szacowanie dochodu tam, gdzie spis go nie mierzy">
+<meta name="twitter:description" content="Jak oszacować dochód mieszkańców na poziomie obwodu spisowego w Polsce, skoro spis powszechny go nie zbiera.">
+<meta name="twitter:image" content="https://gisboost.github.io/assets/analizy/lodz-mapa-dochod.png">
+</head>
+
 > **Uwaga: treść eksperymentalna.** Ten wpis w całości wygenerowała AI (Claude) na
 > podstawie mojego kodu i danych — to wstępna, robocza wersja, która ma pomóc mi
 > rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje

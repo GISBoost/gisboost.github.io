@@ -4,6 +4,19 @@ description: Czy biedniejsze dzielnice Łodzi mają gorszy dostęp do transportu
 
 # Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód w Łodzi
 
+<head>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="GISBoost">
+<meta property="og:title" content="Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód w Łodzi">
+<meta property="og:description" content="Czy biedniejsze dzielnice Łodzi mają gorszy dostęp do transportu publicznego? Analiza dostępności czasowej na zrealizowanym GTFS, z wynikiem odwrotnym do intuicji.">
+<meta property="og:url" content="https://gisboost.github.io/analizy/dostepnosc-dochod-lodz/">
+<meta property="og:image" content="https://gisboost.github.io/assets/analizy/lodz-mapa-dostepnosc-hex.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód w Łodzi">
+<meta name="twitter:description" content="Czy biedniejsze dzielnice Łodzi mają gorszy dostęp do transportu publicznego?">
+<meta name="twitter:image" content="https://gisboost.github.io/assets/analizy/lodz-mapa-dostepnosc-hex.png">
+</head>
+
 > **Uwaga: treść eksperymentalna.** Ten wpis w całości wygenerowała AI (Claude) na
 > podstawie mojego kodu i danych — to wstępna, robocza wersja, która ma pomóc mi
 > rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje

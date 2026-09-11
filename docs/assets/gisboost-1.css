@@ -1,0 +1,155 @@
+/* GISBoost — shared design tokens + components, served from gisboost.github.io.
+   Consumed cross-origin-free by: portal (this repo), mapy-analizy, gtfs-dashboard, easy-R5.
+   Versioned by filename — bump to gisboost-2.css on breaking changes, never edit tokens in place
+   once other repos depend on this exact file. Base token set = easy-R5/gh-pages/styles.css. */
+
+:root {
+  color-scheme: light;
+  --paper: #ffffff;
+  --paper-raised: #eef3f0;
+  --paper-raised-2: #e4ece6;
+  --ink: #16241c;
+  --ink-muted: #4d5c53;
+  --ink-faint: #7c8a82;
+  --line: #d7e2dc;
+  --line-soft: #e6ede9;
+  --green: #2e7d32;
+  --green-ink: #1b5e20;
+  --green-soft: #e6f2e6;
+  --blue: #0277bd;
+  --blue-ink: #01598c;
+  --blue-soft: #e1f3fb;
+  --amber: #a6650a;
+  --amber-ink: #874f05;
+  --amber-soft: #f8ecd8;
+  --slate: #45586a;
+  --red: #b3261e;
+  --red-ink: #8f1c16;
+  --red-soft: #f8e4e2;
+  --focus: #0277bd;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display: "Archivo", "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+  --read: 46rem;
+  --wide: 70rem;
+  /* dark belt (.topbar) — deliberately dark in both light and dark theme, per mapy-analizy */
+  --chrome: #33465c;
+  --chrome-ink: #f3f6fa;
+  --chrome-muted: #c7d4e2;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #1b1f24;
+    --paper-raised: #242a30;
+    --paper-raised-2: #2c333a;
+    --ink: #e7ebe8;
+    --ink-muted: #9aa8a1;
+    --ink-faint: #75837b;
+    --line: #3a434b;
+    --line-soft: #2c333a;
+    --green: #66bb6a;
+    --green-ink: #9ccc9f;
+    --green-soft: #24331f;
+    --blue: #4fc3f7;
+    --blue-ink: #8ad3f8;
+    --blue-soft: #17303b;
+    --amber: #e0ab52;
+    --amber-ink: #ecc07d;
+    --amber-soft: #362c1a;
+    --slate: #a9b8c5;
+    --red: #ef9a9a;
+    --red-ink: #f2b1b1;
+    --red-soft: #3a2222;
+    --focus: #4fc3f7;
+    --chrome: #0d1117;
+    --chrome-ink: #e7ecf2;
+    --chrome-muted: #c7d4e2;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #1b1f24;
+  --paper-raised: #242a30;
+  --paper-raised-2: #2c333a;
+  --ink: #e7ebe8;
+  --ink-muted: #9aa8a1;
+  --ink-faint: #75837b;
+  --line: #3a434b;
+  --line-soft: #2c333a;
+  --green: #66bb6a;
+  --green-ink: #9ccc9f;
+  --green-soft: #24331f;
+  --blue: #4fc3f7;
+  --blue-ink: #8ad3f8;
+  --blue-soft: #17303b;
+  --amber: #e0ab52;
+  --amber-ink: #ecc07d;
+  --amber-soft: #362c1a;
+  --slate: #a9b8c5;
+  --red: #ef9a9a;
+  --red-ink: #f2b1b1;
+  --red-soft: #3a2222;
+  --focus: #4fc3f7;
+  --chrome: #0d1117;
+  --chrome-ink: #e7ecf2;
+  --chrome-muted: #c7d4e2;
+}
+
+/* ---- base reset (safe to load ahead of any site's own stylesheet) ---- */
+*, *::before, *::after { box-sizing: border-box; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---- .topbar — shared header contract, every GISBoost page has exactly this ---- */
+.topbar {
+  background: var(--chrome); color: var(--chrome-ink);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding: 10px 28px;
+}
+.topbar .brand {
+  display: flex; align-items: baseline; gap: 0.5rem;
+  font-weight: 800; letter-spacing: 0.01em; color: var(--chrome-ink);
+  text-decoration: none; white-space: nowrap;
+}
+.topbar .brand .mark { font-family: var(--display); font-size: 0.9rem; font-weight: 800; }
+.topbar .brand .sub { font-family: var(--sans); font-weight: 600; color: var(--chrome-muted); }
+.topbar .brand:hover .sub { color: #fff; }
+.topbar .topnav { display: flex; align-items: center; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+.topbar .topnav-link {
+  all: unset; cursor: pointer; font-family: var(--sans); font-size: 0.8rem; font-weight: 600;
+  color: var(--chrome-muted); padding: 6px 11px; border-radius: 7px; white-space: nowrap;
+}
+.topbar .topnav-link:hover { background: rgba(255, 255, 255, 0.08); color: var(--chrome-ink); }
+.topbar .topnav-link:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.topbar .topnav-link[aria-current="page"] { background: rgba(255, 255, 255, 0.14); color: #fff; }
+.topbar .topnav-link.lang { font-family: var(--mono); font-size: 0.72rem; color: var(--chrome-muted); }
+
+/* ---- shared content components (§4.4) ---- */
+.eyebrow {
+  font: 600 0.72rem/1 var(--sans); letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--ink-muted); margin: 0 0 0.85rem;
+}
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.card {
+  display: block; text-decoration: none; color: inherit; background: var(--paper);
+  border: 1px solid var(--line); border-radius: 12px; padding: 20px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.card:hover { border-color: var(--blue); transform: translateY(-2px); }
+.card:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.card h2, .card h3 {
+  font-family: var(--display); font-weight: 700; font-size: 1.08rem;
+  margin: 0 0 8px; color: var(--ink);
+}
+.card p { margin: 0 0 14px; font-size: 0.86rem; color: var(--ink-muted); line-height: 1.5; }
+.card .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag {
+  font-family: var(--mono); font-size: 0.68rem; padding: 2px 7px;
+  border-radius: 4px; background: var(--paper-raised); color: var(--ink-muted);
+}
