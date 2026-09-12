@@ -1,5 +1,6 @@
 ---
-description: Analizy GISBoost, otwarte badania o dochodzie, dostępności transportowej i dostępie do uczelni w polskich miastach, z pełną metodologią, kodem i interaktywnymi mapami.
+title: Analizy — GISBoost
+description: Analizy GISBoost, otwarte badania o dochodzie i dostępności transportowej w polskich miastach, z metodologią, kodem i interaktywnymi mapami.
 ---
 
 # Analizy

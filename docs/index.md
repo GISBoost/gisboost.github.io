@@ -1,6 +1,6 @@
 ---
 title: GISBoost — narzędzia GIS do analizy transportu publicznego
-description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP, easy-GTFS-RT, GTFS Dashboard, Mapy analiz) i materiały edukacyjne o QGIS oraz danych przestrzennych.
+description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP, easy-GTFS-RT, GTFS Dashboard) i materiały edukacyjne o QGIS oraz danych przestrzennych.
 ---
 
 # GISBoost — GIS, QGIS i dane transportu publicznego
@@ -17,6 +17,18 @@ description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP,
 <meta name="twitter:title" content="GISBoost — GIS, QGIS i dane transportu publicznego">
 <meta name="twitter:description" content="Otwarte narzędzia GIS do analizy transportu publicznego: od codziennego nagrywania GTFS-RT, przez rekonstrukcję rozkładu, po analizę dostępności w QGIS i gotowe mapy.">
 <meta name="twitter:image" content="https://gisboost.github.io/assets/icon_gisboost.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "GISBoost",
+  "url": "https://gisboost.github.io/",
+  "author": {
+    "@type": "Person",
+    "name": "Michał Kaczorowski"
+  }
+}
+</script>
 </head>
 
 GISBoost to mój projekt: otwarte narzędzia GIS do analizy transportu publicznego i materiały
