@@ -72,6 +72,7 @@ extra:
 nav:
   - Start: index.md
   - Narzędzia:
+    - Przegląd: projekty/index.md
     - easy-GTFS-RT: projekty/easy-gtfs-rt.md
     - easy-OTP: projekty/easy-otp.md
     - Easy-R5: projekty/easy-r5.md

@@ -1,5 +1,5 @@
 ---
-description: Mapy analiz — hub interaktywnych map towarzyszących wpisom z sekcji Analizy GISBoost. Jedna analiza = jeden folder. Pierwsza: dostępność do uczelni w 6 miastach.
+description: "Mapy analiz — hub interaktywnych map towarzyszących wpisom z sekcji Analizy GISBoost. Jedna analiza = jeden folder. Pierwsza: dostępność do uczelni w 6 miastach."
 ---
 
 # Mapy analiz

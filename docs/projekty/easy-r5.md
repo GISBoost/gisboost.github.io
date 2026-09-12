@@ -1,5 +1,5 @@
 ---
-description: Easy-R5 — wtyczka processingowa QGIS licząca dostępność transportową na silniku Conveyal R5: macierze czasów przejazdu i dostępność skumulowana w oknie odjazdów.
+description: "Easy-R5 — wtyczka processingowa QGIS licząca dostępność transportową na silniku Conveyal R5: macierze czasów przejazdu i dostępność skumulowana w oknie odjazdów."
 ---
 
 # Easy-R5
