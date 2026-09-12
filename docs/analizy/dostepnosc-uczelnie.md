@@ -22,6 +22,9 @@ description: Dostępność do uczelni transportem publicznym w Łodzi i 6 polski
 > rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje
 > traktuj jako punkt wyjścia do dalszej weryfikacji, nie jako gotowy wynik.
 
+**[Wersja z interaktywnymi wykresami →](https://gisboost.github.io/mapy-analizy/badanie-uczelnie/)**
+— ten sam materiał w formie raportu, z wykresami korekty metody i korelacji dochodu.
+
 W [poprzednim wpisie](dostepnosc-dochod-lodz.md) sprawdziłem, że dostępność transportowa
 w Łodzi zależy głównie od odległości od centrum, nie od dochodu. Tu zawężam pytanie do
 konkretnej grupy i konkretnego celu: **studenci i uczelnie**. Zamiast całej populacji,

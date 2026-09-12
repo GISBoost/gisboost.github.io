@@ -27,6 +27,9 @@
   --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
   --read: 46rem;
   --wide: 70rem;
+  --amber: #a6650a;
+  --amber-ink: #874f05;
+  --amber-soft: #f8ecd8;
 }
 /* Dark mode: modeled on GitHub's own dark theme (canvas.default/subtle/overlay,
    border.default, fg.default/muted, accent.fg) instead of a flatter near-black —
@@ -48,6 +51,9 @@
     --accent-ink: #79c0ff;
     --accent-soft: #132e4d;
     --focus: #58a6ff;
+    --amber: #e0ab52;
+    --amber-ink: #ecc07d;
+    --amber-soft: #362c1a;
   }
 }
 :root[data-theme="dark"] {
@@ -66,6 +72,9 @@
   --accent-ink: #79c0ff;
   --accent-soft: #132e4d;
   --focus: #58a6ff;
+  --amber: #e0ab52;
+  --amber-ink: #ecc07d;
+  --amber-soft: #362c1a;
 }
 
 /* ---- base reset (safe to load ahead of any site's own stylesheet) ---- */

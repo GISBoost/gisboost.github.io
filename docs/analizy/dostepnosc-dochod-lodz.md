@@ -22,6 +22,9 @@ description: Czy biedniejsze dzielnice Łodzi mają gorszy dostęp do transportu
 > rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje
 > traktuj jako punkt wyjścia do dalszej weryfikacji, nie jako gotowy wynik.
 
+**[Wersja z interaktywnymi wykresami →](https://gisboost.github.io/mapy-analizy/badanie-dochod-dostepnosc/)**
+— ten sam materiał w formie raportu, z wykresami korelacji i porównaniem obwodów z heksagonami.
+
 W [poprzednim wpisie](dochod-obwody-spisowe.md) opisałem, jak oszacować dochód mieszkańców
 na poziomie obwodu spisowego, skoro polski spis go nie zbiera. Tu tę warstwę łączę
 z pomiarem dostępności czasowej transportu publicznego w Łodzi i sprawdzam wprost

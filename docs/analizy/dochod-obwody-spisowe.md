@@ -22,6 +22,9 @@ description: Jak oszacować dochód mieszkańców na poziomie obwodu spisowego w
 > rozeznać się w temacie, nie ostateczne wnioski badawcze. Liczby i interpretacje
 > traktuj jako punkt wyjścia do dalszej weryfikacji, nie jako gotowy wynik.
 
+**[Wersja z interaktywnymi wykresami →](https://gisboost.github.io/mapy-analizy/badanie-dochod-obwody/)**
+— ten sam materiał w formie raportu, z wykresem dochodu per elektorat i tabelą pięciu hipotez.
+
 Polski spis powszechny (NSP 2021) nie pyta o dochód. W ogóle, na żadnym poziomie
 drobniejszym niż gmina. Jeśli chcesz wiedzieć, czy bogatsza część miasta ma lepszy dostęp
 do transportu, do szkół, do przychodni, nie masz z czego tego policzyć wprost, bo w Polsce

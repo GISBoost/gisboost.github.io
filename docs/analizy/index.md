@@ -14,31 +14,6 @@ lista. Kod i dane pośrednie są publiczne w repozytorium
 <div class="cards" markdown="1">
 
 <div class="card" markdown="1">
-### Dostępność do uczelni w 6 miastach
-
-61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny. Opis
-metody + link do interaktywnej mapy w środku.
-
-[Przeczytaj →](dostepnosc-uczelnie.md){: .stretched-link }
-</div>
-
-<div class="card" markdown="1">
-### Dochód na poziomie obwodu spisowego
-
-Ile zarabia Twój obwód? Szacowanie dochodu tam, gdzie spis go nie mierzy.
-
-[Przeczytaj →](dochod-obwody-spisowe.md){: .stretched-link }
-</div>
-
-<div class="card" markdown="1">
-### Dostępność a dochód w Łodzi
-
-Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód.
-
-[Przeczytaj →](dostepnosc-dochod-lodz.md){: .stretched-link }
-</div>
-
-<div class="card" markdown="1">
 ### Odstępy między przystankami
 
 Jak długo trzeba czekać na przystanku — mapa dla kilku miast.
@@ -49,7 +24,7 @@ Jak długo trzeba czekać na przystanku — mapa dla kilku miast.
 <div class="card" markdown="1">
 ### Dokąd dojadę transportem publicznym
 
-Izochrony dojazdu transportem publicznym, 6 miast.
+Izochrony dojazdu transportem publicznym, 8 miast.
 
 [Otwórz mapę →](https://gisboost.github.io/mapy-analizy/izochrony-transport/){: .stretched-link }
 </div>
@@ -68,6 +43,33 @@ Dostępność liczona na rozkładzie planowym kontra na tym, co pojazdy faktyczn
 Pełny raport z metodą i wykresami odchyleń, nie tylko mapa.
 
 [Otwórz raport →](https://gisboost.github.io/mapy-analizy/badanie-opoznienia/){: .stretched-link }
+</div>
+
+<div class="card" markdown="1">
+### Ile zarabia Twój obwód?
+
+Szacowanie dochodu tam, gdzie spis go nie mierzy — metoda MRP, walidacja, 6 miast.
+*Eksperymentalne, praca w toku.*
+
+[Otwórz raport →](https://gisboost.github.io/mapy-analizy/badanie-dochod-obwody/){: .stretched-link }
+</div>
+
+<div class="card" markdown="1">
+### Dostępność a dochód w Łodzi
+
+Czy bieda oznacza gorszy dojazd? Dostępność transportowa a dochód, na zrealizowanym GTFS.
+*Eksperymentalne, praca w toku.*
+
+[Otwórz raport →](https://gisboost.github.io/mapy-analizy/badanie-dochod-dostepnosc/){: .stretched-link }
+</div>
+
+<div class="card" markdown="1">
+### Dostępność do uczelni w 6 miastach
+
+61% obszaru zamieszkanego przez studentów bez dostępu do uczelni w pół godziny.
+*Eksperymentalne, praca w toku.*
+
+[Otwórz raport →](https://gisboost.github.io/mapy-analizy/badanie-uczelnie/){: .stretched-link }
 </div>
 
 </div>
