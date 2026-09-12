@@ -29,8 +29,8 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tabs
+    - navigation.tabs.sticky
     #- navigation.tracking
-    #- navigation.tabs.sticky
     - toc.integrate
     - toc.follow
     - content.code.copy
