@@ -1,0 +1,82 @@
+/* Maps mkdocs-material's own CSS variables onto GISBoost's design — a single dark navy
+   belt (header + tabs merged into one), a light gray-blue page, white cards, one muted
+   blue accent. No brand green. Values are hardcoded here (not var()) because Material's
+   own dark/light toggle (data-md-color-scheme) is independent of the OS-preference-driven
+   tokens in gisboost-1.css — this keeps the two in sync regardless of which one the
+   visitor's browser follows. */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #33465c;
+  --md-primary-fg-color--light: #33465c;
+  --md-primary-fg-color--dark: #33465c;
+  --md-primary-bg-color: #f3f6fa;
+  --md-accent-fg-color: #2c5c94;
+  --md-default-bg-color: #eef1f5;
+  --md-default-fg-color: #1b2430;
+  --md-default-fg-color--light: #5c6b7a;
+  --md-default-fg-color--lighter: #8695a6;
+  --md-typeset-color: #1b2430;
+  --md-typeset-a-color: #2c5c94;
+  --md-footer-bg-color: #33465c;
+  --md-footer-fg-color: #f3f6fa;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 220;
+  --md-primary-fg-color: #0d1117;
+  --md-primary-fg-color--light: #0d1117;
+  --md-primary-fg-color--dark: #0d1117;
+  --md-primary-bg-color: #e6edf3;
+  --md-accent-fg-color: #58a6ff;
+  --md-default-bg-color: #161b22;
+  --md-default-fg-color: #e6edf3;
+  --md-default-fg-color--light: #8b949e;
+  --md-default-fg-color--lighter: #6e7681;
+  --md-typeset-color: #e6edf3;
+  --md-typeset-a-color: #58a6ff;
+  --md-footer-bg-color: #0d1117;
+  --md-footer-fg-color: #e6edf3;
+}
+
+.md-typeset a { color: var(--md-typeset-a-color); }
+.md-typeset a:hover { color: var(--md-accent-fg-color); }
+.md-typeset .card:hover,
+.md-typeset .card:hover * { text-decoration: none; }
+
+/* Cards keep a white/dark surface regardless of the OS-preference-driven
+   gisboost-1.css tokens, so they stay in sync with Material's own toggle. */
+.md-typeset .cards .card { background: #ffffff; border-color: #d2d9e1; }
+[data-md-color-scheme="slate"] .md-typeset .cards .card { background: #21262d; border-color: #30363d; }
+.md-typeset .cards .card:hover { border-color: #2c5c94; }
+[data-md-color-scheme="slate"] .md-typeset .cards .card:hover { border-color: #58a6ff; }
+
+body, .md-typeset { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+.md-typeset code, .md-typeset pre, .md-typeset kbd {
+  font-family: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3,
+.md-header__topic, .md-nav__title, .md-ellipsis {
+  font-family: "Archivo", "IBM Plex Sans", system-ui, sans-serif;
+}
+/* Material's own h1/h2 sizes are tuned for its default (system) font, and its "rem"
+   scale is based on an html{font-size:20px} root, not 16px — 1.9rem there renders as
+   38px, not the ~30px it looks like. Use px directly, matching mapy-analizy's actual
+   rendered sizes (its header h1 is 800/1.9rem against a normal 16px root = ~30px). */
+.md-typeset h1 {
+  font-size: 30px; font-weight: 800; letter-spacing: -0.01em; line-height: 1.25;
+}
+.md-typeset h2 {
+  font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin-top: 1.6rem;
+}
+.md-typeset h3 { font-size: 17px; font-weight: 700; }
+
+/* .eyebrow/.card/.tag are rem-sized against a 16px root everywhere else, but Material's
+   own html{font-size:20px} inflates them by 25% here — pin the actual px sizes instead. */
+.md-typeset .eyebrow { font-size: 11.5px; margin-bottom: 14px; }
+.md-typeset .cards .card h2, .md-typeset .cards .card h3 { font-size: 17px; margin-bottom: 8px; }
+.md-typeset .cards .card p { font-size: 14px; }
+.md-typeset .tag { font-size: 11px; }
+
+/* Merge header + tabs into one continuous navy belt instead of Material's default
+   two-tone (primary vs primary--dark) look. */
+.md-tabs { border-top: 1px solid rgba(255, 255, 255, 0.08); }
