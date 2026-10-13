@@ -49,6 +49,9 @@
 [data-md-color-scheme="slate"] .md-typeset .cards .card { background: #21262d; border-color: #30363d; }
 .md-typeset .cards .card:hover { border-color: #2c5c94; }
 [data-md-color-scheme="slate"] .md-typeset .cards .card:hover { border-color: #58a6ff; }
+/* "Wszystkie analizy" card: full row at the top of the grid, accent border. */
+.md-typeset .cards .card-all { grid-column: 1 / -1; border-color: #2c5c94; border-width: 2px; }
+[data-md-color-scheme="slate"] .md-typeset .cards .card-all { border-color: #58a6ff; }
 
 body, .md-typeset { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
 .md-typeset code, .md-typeset pre, .md-typeset kbd {

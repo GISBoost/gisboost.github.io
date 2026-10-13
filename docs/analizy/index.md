@@ -13,6 +13,15 @@ lista. Kod i dane pośrednie są publiczne w repozytorium
 
 <div class="cards" markdown="1">
 
+<div class="card card-all" markdown="1">
+### Wszystkie analizy i mapy
+
+Strona ze wszystkimi interaktywnymi mapami w jednym miejscu: dostępność, opóźnienia, izochrony,
+schemat linii Łodzi, wybór miejsca do mieszkania i raporty z badań.
+
+[Otwórz wszystkie mapy →](https://gisboost.github.io/mapy-analizy/){: .stretched-link }
+</div>
+
 <div class="card" markdown="1">
 ### Odstępy między przystankami
 
