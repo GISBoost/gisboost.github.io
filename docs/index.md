@@ -31,6 +31,16 @@ description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP,
 </script>
 </head>
 
+<div class="cards banner" markdown="1">
+
+<div class="card" markdown="1">
+<p class="eyebrow">Materiały do zajęć</p>
+
+[Jak liczyć dostępność transportową w QGIS? Zajęcia z easy-OTP i Easy-R5 →](https://gisboost.github.io/gis-zajecia/){: .stretched-link }
+</div>
+
+</div>
+
 GISBoost to mój projekt: otwarte narzędzia GIS do analizy transportu publicznego i materiały
 edukacyjne o QGIS. Zajmuję się tym, bo rozkład jazdy nie mówi prawdy o tym, jak transport
 faktycznie kursuje, a dane, które to pokazują, są w większości miast publiczne i darmowe.

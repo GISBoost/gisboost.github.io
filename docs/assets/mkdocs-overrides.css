@@ -83,3 +83,13 @@ body, .md-typeset { font-family: "IBM Plex Sans", system-ui, -apple-system, "Seg
 /* Merge header + tabs into one continuous navy belt instead of Material's default
    two-tone (primary vs primary--dark) look. */
 .md-tabs { border-top: 1px solid rgba(255, 255, 255, 0.08); }
+
+/* Homepage banner: one full-width card; the link text is the card's headline. */
+.md-typeset .cards.banner { grid-template-columns: 1fr; margin: 1rem 0 1.5rem; }
+.md-typeset .cards.banner .card { padding: 16px 20px; }
+.md-typeset .cards.banner .card .eyebrow { margin-bottom: 6px; }
+.md-typeset .cards.banner .card p:last-child { margin: 0; font-size: 17px; font-weight: 700; }
+.md-typeset .cards.banner .card a.stretched-link:focus-visible { outline: none; }
+.md-typeset .cards.banner .card:focus-within { outline: 2px solid #2c5c94; outline-offset: 2px; }
+[data-md-color-scheme="slate"] .md-typeset .cards.banner .card:focus-within { outline-color: #58a6ff; }
+.md-typeset .cards.banner .card a.stretched-link { color: var(--md-typeset-color); }
