@@ -1,0 +1,150 @@
+/* GISBoost — shared design tokens + components, served from gisboost.github.io.
+   Consumed cross-origin-free by: portal (this repo), mapy-analizy, gtfs-dashboard, easy-R5.
+   Versioned by filename — bump to gisboost-2.css on breaking changes, never edit tokens in
+   place once other repos depend on this exact file.
+
+   Base = mapy-analizy's original design (the reference look): light gray-blue page on
+   white cards, a dark navy top belt, one muted blue accent. No brand green. */
+
+:root {
+  color-scheme: light;
+  --bg: #eef1f5;
+  --surface: #ffffff;
+  --surface-2: #e3e8ee;
+  --ink: #1b2430;
+  --ink-muted: #5c6b7a;
+  --ink-faint: #8695a6;
+  --border: #d2d9e1;
+  --chrome: #33465c;
+  --chrome-ink: #f3f6fa;
+  --chrome-muted: #9fb3c8;
+  --accent: #2c5c94;
+  --accent-ink: #1f4573;
+  --accent-soft: #e4ecf5;
+  --focus: #2c5c94;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display: "Archivo", "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+  --read: 46rem;
+  --wide: 70rem;
+  --amber: #a6650a;
+  --amber-ink: #874f05;
+  --amber-soft: #f8ecd8;
+}
+/* Dark mode: modeled on GitHub's own dark theme (canvas.default/subtle/overlay,
+   border.default, fg.default/muted, accent.fg) instead of a flatter near-black —
+   gives the page, cards and belt distinct steps instead of blending together. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #161b22;
+    --surface: #21262d;
+    --surface-2: #2d333b;
+    --ink: #e6edf3;
+    --ink-muted: #8b949e;
+    --ink-faint: #6e7681;
+    --border: #30363d;
+    --chrome: #0d1117;
+    --chrome-ink: #e6edf3;
+    --chrome-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-ink: #79c0ff;
+    --accent-soft: #132e4d;
+    --focus: #58a6ff;
+    --amber: #e0ab52;
+    --amber-ink: #ecc07d;
+    --amber-soft: #362c1a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #161b22;
+  --surface: #21262d;
+  --surface-2: #2d333b;
+  --ink: #e6edf3;
+  --ink-muted: #8b949e;
+  --ink-faint: #6e7681;
+  --border: #30363d;
+  --chrome: #0d1117;
+  --chrome-ink: #e6edf3;
+  --chrome-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-ink: #79c0ff;
+  --accent-soft: #132e4d;
+  --focus: #58a6ff;
+  --amber: #e0ab52;
+  --amber-ink: #ecc07d;
+  --amber-soft: #362c1a;
+}
+
+/* ---- base reset (safe to load ahead of any site's own stylesheet) ---- */
+*, *::before, *::after { box-sizing: border-box; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---- .topbar — shared header contract, every GISBoost page has exactly this ---- */
+.topbar {
+  background: var(--chrome); color: var(--chrome-ink);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding: 10px 28px;
+}
+/* .brand is a plain wrapper, not a link — .mark and .sub are two independent
+   links to two different places (global portal vs. this site's own home), so
+   don't nest them inside one anchor. */
+.topbar .brand {
+  display: flex; align-items: baseline; gap: 0.5rem; white-space: nowrap;
+}
+.topbar .brand .mark {
+  font-family: var(--display); font-weight: 800; font-size: 0.9rem;
+  letter-spacing: 0.01em; color: var(--chrome-ink); text-decoration: none;
+}
+.topbar .brand .mark:hover { text-decoration: underline; }
+.topbar .brand .sub {
+  font-family: var(--sans); font-weight: 600; font-size: 0.9rem;
+  color: var(--chrome-muted); text-decoration: none;
+}
+.topbar .brand .sub:hover { color: var(--chrome-ink); text-decoration: underline; }
+.topbar .topnav { display: flex; align-items: center; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+.topbar .topnav-link {
+  all: unset; cursor: pointer; font-family: var(--sans); font-size: 0.8rem; font-weight: 600;
+  color: var(--chrome-muted); padding: 6px 11px; border-radius: 7px; white-space: nowrap;
+}
+.topbar .topnav-link:hover { background: rgba(255, 255, 255, 0.08); color: var(--chrome-ink); }
+.topbar .topnav-link:focus-visible { outline: 2px solid var(--chrome-ink); outline-offset: 2px; }
+.topbar .topnav-link[aria-current="page"] { background: rgba(255, 255, 255, 0.14); color: #fff; }
+.topbar .topnav-link.lang { font-family: var(--mono); font-size: 0.72rem; color: var(--chrome-muted); }
+
+/* ---- shared content components (§4.4) ---- */
+.eyebrow {
+  font: 600 0.72rem/1 var(--sans); letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--ink-muted); margin: 0 0 0.85rem;
+}
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.card {
+  display: block; position: relative; text-decoration: none; color: inherit;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 20px; transition: border-color 0.15s, transform 0.15s;
+}
+.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Whole-card link pattern for cards built from <div class="card"> + one real <a> inside
+   (needed where markdown must render inside — an outer <a class="card"> breaks python-
+   markdown's md_in_html block parsing). Give the inner link this class to stretch it over
+   the entire card, so hovering/clicking anywhere on the card follows it. */
+.card a.stretched-link { text-decoration: none; color: inherit; }
+.card a.stretched-link::after { content: ""; position: absolute; inset: 0; }
+.card h2, .card h3 {
+  font-family: var(--display); font-weight: 700; font-size: 1.08rem;
+  margin: 0 0 8px; color: var(--ink);
+}
+.card p { margin: 0 0 14px; font-size: 0.86rem; color: var(--ink-muted); line-height: 1.5; }
+.card .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag {
+  font-family: var(--mono); font-size: 0.68rem; padding: 2px 7px;
+  border-radius: 4px; background: var(--surface-2); color: var(--ink-muted);
+}
