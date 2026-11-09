@@ -34,9 +34,9 @@ description: Otwarte narzędzia GIS do analizy transportu publicznego (easy-OTP,
 <div class="cards banner" markdown="1">
 
 <div class="card" markdown="1">
-<p class="eyebrow">Materiały do zajęć</p>
+<p class="eyebrow">Nowa mapa</p>
 
-[Jak liczyć dostępność transportową w QGIS? Zajęcia z easy-OTP i Easy-R5 →](https://gisboost.github.io/gis-zajecia/){: .stretched-link }
+[Co się dzieje z Twoją ulicą? Remonty dróg w Łodzi 2021–2026: 265 robót, 194 utrudnienia, a brakujący remont dodasz sam →](https://gisboost.github.io/mapy-analizy/remonty-lodz/){: .stretched-link }
 </div>
 
 </div>
